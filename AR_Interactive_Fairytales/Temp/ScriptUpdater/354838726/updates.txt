@@ -1,0 +1,2 @@
+Temp/ScriptUpdater/354838726/847109690_CameraRigEditor.cs => Assets/UnityTechnologies/TowerDefenseTemplate/Scripts/Core/Camera/Editor/CameraRigEditor.cs
+Temp/ScriptUpdater/354838726/387289969_AreaMeshCreatorEditor.cs => Assets/UnityTechnologies/TowerDefenseTemplate/Scripts/TowerDefense/MeshCreator/Editor/AreaMeshCreatorEditor.cs
