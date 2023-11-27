@@ -1,0 +1,4 @@
+#Mon Nov 27 17:20:01 KST 2023
+base.0=/Users/kwon-yechan/Documents/GitHub/AR_Interactive_Fairytales/AR_Interactive_Fairytales/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
