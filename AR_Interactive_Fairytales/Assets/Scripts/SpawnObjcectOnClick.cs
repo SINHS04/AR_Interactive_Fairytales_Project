@@ -35,7 +35,7 @@ public class SpawnObjcectOnClick : MonoBehaviour
 
         float depthEstimation = trackingInfo.depth_estimation;
 
-        Vector3 jointPosition = ManoUtils.Instance.CalculateNewPositionSkeletonJointDepth(new Vector3(trackingInfo.skeleton.joints[8].x, trackingInfo.skeleton.joints[8].y, trackingInfo.skeleton.joints[8].z), depthEstimation*10);
+        Vector3 jointPosition = ManoUtils.Instance.CalculateNewPositionSkeletonJointDepth(new Vector3(trackingInfo.skeleton.joints[8].x, trackingInfo.skeleton.joints[8].y, trackingInfo.skeleton.joints[8].z), depthEstimation*20);
 
         //Instantiate(arObject, jointPosition, Quaternion.identity);
 

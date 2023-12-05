@@ -28,13 +28,13 @@ public class ObjectManipulator : MonoBehaviour
         var currentGesture = ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger;
 
 
-        if (currentGesture == ManoGestureTrigger.GRAB_GESTURE)
+        if (currentGesture == ManoGestureTrigger.PICK)
         {
             isGrabbing = true;
 
         }
 
-        else if (currentGesture == ManoGestureTrigger.RELEASE_GESTURE)
+        else if (currentGesture == ManoGestureTrigger.DROP)
         {
             isGrabbing = false;
             transform.parent = null;

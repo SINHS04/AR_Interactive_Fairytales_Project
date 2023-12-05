@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/MakeStrawhouse.unity
+    guid: 6d4fcaf558129f543b08348de3a80b67
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 574ad887d55cf4a4d9b223f1c2535917, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c543986d15a4b418aa2cb9c608312315, type: 2}

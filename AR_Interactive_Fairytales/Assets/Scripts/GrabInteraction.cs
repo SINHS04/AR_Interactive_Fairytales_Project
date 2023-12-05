@@ -19,7 +19,7 @@ public class GrabInteraction : MonoBehaviour
 
             var depthEstimation = ManomotionManager.Instance.Hand_infos[0].hand_info.tracking_info.depth_estimation;
 
-            Vector3 positionPointer = ManoUtils.Instance.CalculateNewPositionDepth(palmCenter, depthEstimation*10);
+            Vector3 positionPointer = ManoUtils.Instance.CalculateNewPositionDepth(palmCenter, depthEstimation*23);
 
             handPointer.transform.position = positionPointer;
             handPointer.SetActive(true);
