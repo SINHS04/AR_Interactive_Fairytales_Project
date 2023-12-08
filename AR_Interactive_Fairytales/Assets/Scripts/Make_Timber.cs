@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Make_Timber : MonoBehaviour
 {
-    private int count = 0;
-    private string handTag = "Straw";
+    private int straw_count = 0;
+    private int log_count = 0;
+    private int brick_count = 0;
+    private string house_mat1 = "Straw";
+    private string house_mat2 = "Log";
+    private string house_mat3 = "Brick";
 
 
     // Start is called before the first frame update
@@ -17,7 +21,7 @@ public class Make_Timber : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(count == 3)
+        if(straw_count == 3)
         {
             GetComponent<MeshRenderer>().enabled = true;
         }
@@ -25,9 +29,9 @@ public class Make_Timber : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag(handTag))
+        if (other.gameObject.CompareTag(house_mat1))
         {
-            count++;
+            straw_count++;
         }
     }
 }

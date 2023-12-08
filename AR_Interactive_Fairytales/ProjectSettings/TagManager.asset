@@ -7,6 +7,7 @@ TagManager:
   - baseSDK
   - particle
   - Straw
+  - House
   layers:
   - Default
   - TransparentFX

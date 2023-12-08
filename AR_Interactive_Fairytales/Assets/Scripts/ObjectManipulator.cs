@@ -67,7 +67,9 @@ public class ObjectManipulator : MonoBehaviour
     {
         if (other.gameObject.CompareTag(handTag) && isGrabbing)
         {
+            objcectRenderer.sharedMaterial = materials[1];
             transform.parent = other.gameObject.transform;
+
         }
     }
 
