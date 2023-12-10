@@ -11,6 +11,7 @@ TagManager:
   - Log
   - Stone
   - Bigfire
+  - Fire
   layers:
   - Default
   - TransparentFX
