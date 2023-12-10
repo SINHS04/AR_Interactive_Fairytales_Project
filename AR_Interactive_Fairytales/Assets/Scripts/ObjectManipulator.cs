@@ -51,6 +51,19 @@ public class ObjectManipulator : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.CompareTag("Plane"))
+        {
+            // 현재 위치를 가져옴
+            Vector3 currentPosition = transform.position;
+
+            // y 좌표를 1로 설정
+            currentPosition.y = 1;
+
+            // 수정한 위치를 다시 할당
+            transform.position = currentPosition;
+
+        }
+
         if (other.gameObject.CompareTag(handTag))
         {
             objcectRenderer.sharedMaterial = materials[1];

@@ -8,6 +8,9 @@ TagManager:
   - particle
   - Straw
   - House
+  - Log
+  - Stone
+  - Bigfire
   layers:
   - Default
   - TransparentFX
