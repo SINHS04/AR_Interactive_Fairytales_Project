@@ -10,7 +10,7 @@ TagManager:
   - House
   - Log
   - Stone
-  - Bigfire
+  - Fire
   layers:
   - Default
   - TransparentFX

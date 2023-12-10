@@ -25,7 +25,6 @@ public class FireTouch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ManomotionManager.Instance.ShouldCalculateGestures(true);
         ScriptTxt.text = "touch" + count;
         ChangeFire();
     }
