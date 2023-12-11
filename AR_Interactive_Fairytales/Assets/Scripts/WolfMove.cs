@@ -10,8 +10,8 @@ public class WolfMove : MonoBehaviour
 
     [SerializeField] private Transform Fireplace;
     [SerializeField] private Transform door;
-    private float DownSpeed = 1.0f;
-    private float RunSpeed = 3.0f;
+    private float DownSpeed = 0.3f;
+    private float RunSpeed = 5.0f;
 
     private bool isFire = false;
 

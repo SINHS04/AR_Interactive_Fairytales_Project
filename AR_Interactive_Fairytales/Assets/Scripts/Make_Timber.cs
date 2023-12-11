@@ -30,7 +30,7 @@ public class Make_Timber : MonoBehaviour
     void Update()
     {
         Color curr_color = GetComponent<MeshRenderer>().material.color;
-        if(curr_count >= 0 && curr_count<Max)
+        if(curr_count >= 0 && curr_count<Max+1)
         {
             GetComponent<MeshRenderer>().enabled = true;
             GetComponent<MeshRenderer>().material.color = new Color(curr_color.r, curr_color.g, curr_color.b, 1.0f/((Max+1)/(curr_count+1)) );

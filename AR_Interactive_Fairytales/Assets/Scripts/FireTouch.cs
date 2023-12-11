@@ -42,16 +42,16 @@ public class FireTouch : MonoBehaviour
 
     private void ChangeFire()
     {
-        if(count == 0)
+        if(count == 1)
         {
             FireList[0].SetActive(true);
         }
-        else if(count == 4)
+        else if(count == 3)
         {
             FireList[0].SetActive(false);
             FireList[1].SetActive(true);
         }
-        else if (count == 10)
+        else if (count == 5)
         {
             FireList[1].SetActive(false);
             FireList[2].SetActive(true);
