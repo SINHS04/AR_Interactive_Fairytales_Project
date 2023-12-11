@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -74,6 +75,7 @@ public class PigTouch : MonoBehaviour
         else if (other.gameObject.CompareTag("House"))
         {
             //objcectRenderer.sharedMaterial = materials[1];
+            Destroy(this.gameObject);
             Speed = 0; //¸ØÃß±â
             ScriptTxt.text = "µµÂø";
             //transform.position = transform.position + new Vector3(1, 0, 0);
